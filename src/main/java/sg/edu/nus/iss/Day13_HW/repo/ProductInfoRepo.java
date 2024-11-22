@@ -144,11 +144,12 @@ public class ProductInfoRepo {
                 writer.write("picture" + "\n");
 
                 for (ProductInfo product : products) {
-                    writer.write(product.getId() + ",");
-                    writer.write(product.getItem() + ",");
-                    writer.write(product.getSold() + ",");
-                    writer.write(product.getQuantity() + ",");
-                    writer.write(product.getPicture() + "\n");
+                    // writer.write(product.getId() + ",");
+                    // writer.write(product.getItem() + ",");
+                    // writer.write(product.getSold() + ",");
+                    // writer.write(product.getQuantity() + ",");
+                    // writer.write(product.getPicture() + "\n");
+                    writer.write(product.toString() + "\n");
 
                 }
 
